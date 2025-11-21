@@ -15,24 +15,24 @@ const FAQSection = () => {
 
   const faqs: FAQ[] = [
     {
-      question: 'Is my financial data secure with FuelSense?',
+      question: 'Is my financial data secure with Flowly?',
       answer: 'Yes, absolutely. We use bank-level 256-bit encryption for all data transmission and storage. Your information is never shared with third parties, and we comply with South African POPIA regulations. All payment processing is handled through secure, PCI-compliant payment gateways.'
     },
     {
-      question: 'How does FuelSense track my trips automatically?',
-      answer: 'FuelSense uses GPS technology to detect when you start and end trips. The app runs efficiently in the background and only activates during driving. You can also manually log trips if you prefer. All trip data is correlated with your fuel purchases to calculate accurate cost-per-kilometer.'
+      question: 'How does Flowly track my trips automatically?',
+      answer: 'Flowly uses GPS technology to detect when you start and end trips. The app runs efficiently in the background and only activates during driving. You can also manually log trips if you prefer. All trip data is correlated with your fuel purchases to calculate accurate cost-per-kilometer.'
     },
     {
-      question: 'Will FuelSense drain my phone battery?',
-      answer: 'No. FuelSense is optimized for minimal battery usage, consuming less than 2% of battery per day on average. We use efficient GPS tracking that only activates during trips, and the app intelligently manages background processes to preserve battery life.'
+      question: 'Will Flowly drain my phone battery?',
+      answer: 'No. Flowly is optimized for minimal battery usage, consuming less than 2% of battery per day on average. We use efficient GPS tracking that only activates during trips, and the app intelligently manages background processes to preserve battery life.'
     },
     {
-      question: 'Can I use FuelSense for tax deductions?',
-      answer: 'Yes! FuelSense generates SARS-compliant expense reports that you can use for tax purposes. The app tracks all fuel purchases, mileage, and business-related expenses with proper documentation. You can export detailed reports in PDF or Excel format for your accountant.'
+      question: 'Can I use Flowly for tax deductions?',
+      answer: 'Yes! Flowly generates SARS-compliant expense reports that you can use for tax purposes. The app tracks all fuel purchases, mileage, and business-related expenses with proper documentation. You can export detailed reports in PDF or Excel format for your accountant.'
     },
     {
-      question: 'Does FuelSense work with both Uber and Bolt?',
-      answer: 'Yes, FuelSense integrates with both Uber and Bolt driver accounts. You can connect multiple platforms and the app will automatically import trip data, making it easy to track expenses across all your ride-hailing activities.'
+      question: 'Does Flowly work with both Uber and Bolt?',
+      answer: 'Yes, Flowly integrates with both Uber and Bolt driver accounts. You can connect multiple platforms and the app will automatically import trip data, making it easy to track expenses across all your ride-hailing activities.'
     },
     {
       question: 'What if I drive multiple vehicles?',
@@ -40,7 +40,7 @@ const FAQSection = () => {
     },
     {
       question: 'How accurate is the fuel cost tracking?',
-      answer: 'FuelSense is accurate to within 1% of actual costs. We use photo receipt scanning with OCR technology to extract exact fuel prices, liters purchased, and fuel types. Combined with GPS trip data, we calculate precise cost-per-kilometer for every journey.'
+      answer: 'Flowly is accurate to within 1% of actual costs. We use photo receipt scanning with OCR technology to extract exact fuel prices, liters purchased, and fuel types. Combined with GPS trip data, we calculate precise cost-per-kilometer for every journey.'
     },
     {
       question: 'Can I try Premium features before paying?',
@@ -51,7 +51,7 @@ const FAQSection = () => {
       answer: 'Your data remains accessible for 90 days after cancellation. You can export all your records during this period. After 90 days, data is permanently deleted from our servers. You can reactivate your account anytime within the 90-day window.'
     },
     {
-      question: 'Does FuelSense work offline?',
+      question: 'Does Flowly work offline?',
       answer: 'Yes, partially. You can log fuel purchases and trips offline, and the data will sync automatically when you reconnect to the internet. However, features like live fuel prices and route optimization require an internet connection.'
     }
   ];
@@ -93,7 +93,7 @@ const FAQSection = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-            Everything you need to know about FuelSense
+            Everything you need to know about Flowly
           </p>
         </div>
 

@@ -64,7 +64,7 @@ const FooterSection = () => {
       <footer className="bg-text-primary text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="text-white/60">© 2025 FuelSense. All rights reserved.</p>
+            <p className="text-white/60">© 2025 Flowly. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -84,7 +84,7 @@ const FooterSection = () => {
                   <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white"/>
                 </svg>
               </div>
-              <span className="text-xl font-bold">FuelSense</span>
+              <span className="text-xl font-bold">Flowly</span>
             </div>
             <p className="text-white/70 mb-4">
               The only fuel tracking app designed specifically for South African ride-hailing drivers.
@@ -162,7 +162,7 @@ const FooterSection = () => {
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/60 text-sm">
-              © {currentYear} FuelSense. All rights reserved.
+              © {currentYear} Flowly. All rights reserved.
             </p>
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">

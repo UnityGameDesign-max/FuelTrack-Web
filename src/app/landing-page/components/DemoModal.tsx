@@ -31,7 +31,7 @@ const DemoModal = ({ isOpen, onClose }: DemoModalProps) => {
       
       <div className="relative bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden">
         <div className="flex items-center justify-between p-6 border-b border-border">
-          <h3 className="text-2xl font-bold text-text-primary">FuelSense Demo Video</h3>
+          <h3 className="text-2xl font-bold text-text-primary">Flowly Demo Video</h3>
           <button
             onClick={onClose}
             className="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-surface transition-colors"
@@ -46,7 +46,7 @@ const DemoModal = ({ isOpen, onClose }: DemoModalProps) => {
             <div className="text-center">
               <Icon name="PlayCircleIcon" size={64} className="text-white/50 mx-auto mb-4" variant="solid" />
               <p className="text-white/70">Demo video would play here</p>
-              <p className="text-white/50 text-sm mt-2">2 minutes overview of FuelSense features</p>
+              <p className="text-white/50 text-sm mt-2">2 minutes overview of Flowly features</p>
             </div>
           </div>
         </div>

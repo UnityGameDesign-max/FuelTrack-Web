@@ -112,7 +112,7 @@ const StickyNavigation = ({ isCollapsed = false }: StickyNavigationProps) => {
                   <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-foreground"/>
                 </svg>
               </div>
-              <span className="text-xl font-bold text-text-primary">FuelSense</span>
+              <span className="text-xl font-bold text-text-primary">Flowly</span>
             </Link>
 
             <div className="hidden md:flex items-center space-x-1">

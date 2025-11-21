@@ -128,7 +128,7 @@ const ProblemSection = () => {
               <Icon name="DocumentTextIcon" size={24} className="text-destructive" />
             </div>
             <h3 className="text-lg font-bold text-text-primary mb-2">Tax Headaches</h3>
-            <p className="text-secondary">
+            <p className="text-text-secondary">
               Missing receipts and poor records mean paying more tax than necessary
             </p>
           </div>

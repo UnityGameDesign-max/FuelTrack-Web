@@ -1,15 +1,17 @@
 import Icon from '@/src/components/ui/AppIcon';
 import AppImage from '@/src/components/ui/AppImage';
+import AppStoreButton from './AppStoreButton';
+import PlayStoreButton from './PlayStoreButton';
 
 const HowItWorksSection = () => {
   const steps = [
   {
     number: '01',
     icon: 'ArrowDownTrayIcon',
-    title: 'Download FuelSense',
+    title: 'Download Flowly',
     description: 'Get the app free from Google Play or App Store. Setup takes less than 2 minutes.',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1a7ab7afe-1763716278200.png",
-    alt: 'Smartphone screen showing FuelSense app download page with install button'
+    alt: 'Smartphone screen showing Flowly app download page with install button'
   },
   {
     number: '02',
@@ -75,14 +77,8 @@ const HowItWorksSection = () => {
                 
                 {index === 0 &&
               <div className="flex flex-col sm:flex-row gap-3">
-                    <button className="flex items-center justify-center space-x-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-black/90 transition-conversion">
-                      <Icon name="DevicePhoneMobileIcon" size={20} />
-                      <span className="font-medium">Download on App Store</span>
-                    </button>
-                    <button className="flex items-center justify-center space-x-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-black/90 transition-conversion">
-                      <Icon name="DevicePhoneMobileIcon" size={20} />
-                      <span className="font-medium">Get it on Google Play</span>
-                    </button>
+                    <AppStoreButton />
+                    <PlayStoreButton />
                   </div>
               }
               </div>

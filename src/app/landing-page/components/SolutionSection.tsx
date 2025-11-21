@@ -11,7 +11,7 @@ const SolutionSection = () => {
             <span className="text-success font-medium">The Complete Solution</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text-primary mb-4">
-            FuelSense: Your Profit Optimization Partner
+            Flowly: Your Profit Optimization Partner
           </h2>
           <p className="text-xl text-text-secondary max-w-3xl mx-auto">
             Automated expense tracking designed specifically for South African ride-hailing drivers
@@ -57,7 +57,7 @@ const SolutionSection = () => {
 
           <div>
             <h3 className="text-2xl font-bold text-text-primary mb-4">
-              FuelSense Automated Tracking
+              Flowly Automated Tracking
             </h3>
             <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-xl p-6 space-y-4 border-2 border-primary/20">
               <div className="flex items-start space-x-3">

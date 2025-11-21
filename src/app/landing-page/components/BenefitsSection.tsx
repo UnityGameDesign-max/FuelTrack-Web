@@ -43,7 +43,7 @@ const BenefitsSection = () => {
     before: 'R 12,450',
     after: 'R 15,890',
     improvement: '+28%',
-    quote: 'FuelSense showed me I was losing R3,000 monthly on inefficient routes. Now I know exactly which trips are profitable.'
+    quote: 'Flowly showed me I was losing R3,000 monthly on inefficient routes. Now I know exactly which trips are profitable.'
   },
   {
     name: 'Sarah K.',
@@ -65,7 +65,7 @@ const BenefitsSection = () => {
     before: 'R 10,800',
     after: 'R 13,200',
     improvement: '+22%',
-    quote: 'I thought I knew my costs until FuelSense showed me the real numbers. Game changer for my business.'
+    quote: 'I thought I knew my costs until Flowly showed me the real numbers. Game changer for my business.'
   }];
 
 
@@ -78,7 +78,7 @@ const BenefitsSection = () => {
             <span className="text-success font-medium">Real Results</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text-primary mb-4">
-            Why Drivers Love FuelSense
+            Why Drivers Love Flowly
           </h2>
           <p className="text-xl text-text-secondary max-w-3xl mx-auto">
             Join thousands of SA drivers increasing their monthly earnings

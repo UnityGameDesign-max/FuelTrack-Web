@@ -60,7 +60,7 @@ const LocalizationSection = () => {
                 Trusted by Major Fuel Retailers
               </h3>
               <p className="text-text-secondary mb-6">
-                FuelSense partners with South Africa's leading fuel companies to provide accurate pricing, loyalty program integration, and exclusive driver discounts.
+                Flowly partners with South Africa's leading fuel companies to provide accurate pricing, loyalty program integration, and exclusive driver discounts.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white rounded-lg p-4 text-center">
