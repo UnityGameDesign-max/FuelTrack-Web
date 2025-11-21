@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-border: #e5e7eb;
+    --color-input: #e5e7eb;
+    --color-ring: #1d4ed8;
+    --color-background: #ffffff;
+    --color-foreground: #111827;
+    --color-surface: #f8fafc;
+    --color-primary: #1d4ed8;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #059669;
+    --color-secondary-foreground: #ffffff;
+    --color-destructive: #ef4444;
+    --color-destructive-foreground: #ffffff;
+    --color-muted: #f8fafc;
+    --color-muted-foreground: #6b7280;
+    --color-accent: #dc2626;
+    --color-accent-foreground: #ffffff;
+    --color-popover: #ffffff;
+    --color-popover-foreground: #111827;
+    --color-card: #ffffff;
+    --color-card-foreground: #111827;
+    --color-success: #10b981;
+    --color-success-foreground: #ffffff;
+    --color-warning: #f59e0b;
+    --color-warning-foreground: #ffffff;
+    --color-error: #ef4444;
+    --color-error-foreground: #ffffff;
+    --color-text-primary: #111827;
+    --color-text-secondary: #6b7280;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --color-border: #374151;
+    --color-input: #374151;
+    --color-ring: #3b82f6;
+    --color-background: #111827;
+    --color-foreground: #f9fafb;
+    --color-surface: #1f2937;
+    --color-primary: #3b82f6;
+    --color-muted: #1f2937;
+    --color-muted-foreground: #9ca3af;
+    --color-popover: #111827;
+    --color-popover-foreground: #f9fafb;
+    --color-card: #111827;
+    --color-card-foreground: #f9fafb;
+    --color-text-primary: #f9fafb;
+    --color-text-secondary: #9ca3af;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
